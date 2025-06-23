@@ -16,7 +16,7 @@ public class Qes1 {
 		byteNum = 10;
 		shortNum =100;
 		intNum = 1000;
-		longNum = 10000;
+        longNum = 10000;
 		floatNum = 9.5f;
 		doubleNum = 10.5;
 		letter = 'a';
