@@ -22,6 +22,10 @@ public class Qes1 {
 		letter = 'a';
 		letters = "ハロー";
 		isBoolean = true;
+		
+		longNum = 11110;
+		
+		System.out.println(longNum);
 
 	}
 
