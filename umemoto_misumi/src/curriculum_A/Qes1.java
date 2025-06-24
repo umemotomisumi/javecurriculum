@@ -25,8 +25,30 @@ public class Qes1 {
 		letters = "ハロー";
 		isBoolean = true;
 
-		//設問１で代入した初期値に指定された値を代入しています。//;
-
+		//設問１で代入した初期値に指定された値を代入しています。//
+		
+		System.out.println(byteNum + shortNum + intNum + longNum);
+		System.out.println(byteNum * 2);
+		System.out.println(letter + letters + isBoolean);
+		System.out.println(byteNum + shortNum + intNum + longNum + floatNum + doubleNum);
+		System.out.println(byteNum * shortNum * intNum * longNum);
+		System.out.println(doubleNum/100);
+		System.out.println(byteNum - shortNum);
+		
+		//設問２代入した変数を用いて出力しています。//
+		
+		System.out.println();
+		String name = "山田太郎";
+		System.out.println("こんにちは、"+ name + "さん！");
+		
+		//指定の変数を宣言し値を代入して出力しています。//
+		
+		System.out.println();
+		int age = 25;
+		System.out.println("年齢:" + age + "歳");
+		
+		//指定の変数を宣言し値を代入して出力しています。//
+		
 	}
 
 }
