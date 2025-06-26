@@ -49,6 +49,61 @@ public class Qes1 {
 		
 		//指定の変数を宣言し値を代入して出力しています。//
 		
+		System.out.println();
+		int num1 = 10;
+		int num2 = 5;
+		int sum = num1 + num2;
+		System.out.println(sum);
+		
+		//指定の変数を宣言し値を足した結果を出力しています。//
+		
+		System.out.println();
+		int score = 80;
+		score = score + 20;
+		System.out.println("最終スコア:" + score);
+		
+		//指定の変数を宣言し値を更新した結果を出力しています。//
+		
+		System.out.println();
+		double price = 99.99;
+		int i = (int) price;
+		System.out.println("整数価格:" + i);
+		
+		//指定の変数を宣言し型変換した結果を出力しています。//
+		
+		System.out.println();
+		String numStr = "123";
+		int num3 = Integer.parseInt(numStr);
+		System.out.println(num3 +10);
+		
+		//指定の変数を宣言し型変換した値から足した結果を出力しています。//
+		
+		System.out.println();
+		int num = 50;
+		String num4 = String.valueOf(num);
+		System.out.println("得点:" + num4);
+		
+		//指定の変数を宣言し型変換した値を出力しています。//
+		
+		System.out.println();
+		int a = 10;
+		int b = 20;
+		boolean result = (a < b);
+		System.out.println(result);
+		
+		//条件演算子を使用して指定の値を出力しています。//
+		
+		System.out.println();
+		int x = 15;
+		System.out.println(x >= 10 ?"OK" : "NG");
+		
+		System.out.println();
+		String text ="私はJavaが好きです。Javaは楽しい！";
+		String text2 =text.replace("Jave","python");
+		System.out.println(text2);
+		
+		
+		
 	}
 
 }
