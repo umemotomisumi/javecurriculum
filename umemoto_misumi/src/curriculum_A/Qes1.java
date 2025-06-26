@@ -97,12 +97,14 @@ public class Qes1 {
 		int x = 15;
 		System.out.println(x >= 10 ?"OK" : "NG");
 		
+        //x が 10 以上なら "OK"、そうでなければ "NG" を出力しています。//
+		
 		System.out.println();
 		String text ="私はJavaが好きです。Javaは楽しい！";
-		String text2 =text.replace("Jave","python");
+		String text2 = text.replace("Java","Python");
 		System.out.println(text2);
 		
-		
+		//文章の中にある 「Java」 を 「Python」 に置き換えて出力しています。//
 		
 	}
 
