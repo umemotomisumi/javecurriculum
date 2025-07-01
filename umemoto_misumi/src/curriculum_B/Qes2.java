@@ -68,6 +68,22 @@ public class Qes2 {
 
 		//numを1とし、偶数か奇数かの結果をコンソールに表示させます。//
 
+		System.out.println();
+		score = (int) (Math.random() * 100) + 1;
+		System.out.println("スコア:" + score);
+
+		if (score >= 90) {
+			System.out.println("優");
+		} else if (score >= 70) {
+			System.out.println("良");
+		} else if (score >= 50) {
+			System.out.println("可");
+		} else {
+			System.out.println("不可");
+		}
+		
+		//スコアの値をランダムに表示し、当てはまる結果をコンソールに表示させます。//
+
 	}
 
 }
