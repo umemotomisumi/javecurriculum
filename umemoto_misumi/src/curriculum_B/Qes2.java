@@ -81,8 +81,75 @@ public class Qes2 {
 		} else {
 			System.out.println("不可");
 		}
-		
+
 		//スコアの値をランダムに表示し、当てはまる結果をコンソールに表示させます。//
+
+		System.out.println();
+		String input = null;
+		if (input == null || input.isEmpty()) {
+			System.out.println("入力が無効です");
+		}
+
+		// null または空文字（""）のときに「入力が無効です」と表示させます。//
+
+		System.out.println();
+		int day = (int) (Math.random() * 7) + 1;
+
+		switch (day) {
+		case 1:
+			System.out.println("月曜日");
+			break;
+		case 2:
+			System.out.println("火曜日");
+			break;
+		case 3:
+			System.out.println("水曜日");
+			break;
+		case 4:
+			System.out.println("木曜日");
+			break;
+		case 5:
+			System.out.println("金曜日");
+			break;
+		case 6:
+			System.out.println("土曜日");
+			break;
+		case 7:
+			System.out.println("日曜日");
+			break;
+		default:
+			System.out.println("無効な入力です");
+		}
+
+		System.out.println();
+		int month = (int) (Math.random() * 12) + 1;
+
+		switch (month) {
+		case 12:
+		case 1:
+		case 2:
+			System.out.println("冬");
+			break;
+		case 3:
+		case 4:
+		case 5:
+			System.out.println("春");
+			break;
+		case 6:
+		case 7:
+		case 8:
+			System.out.println("夏");
+			break;
+		case 9:
+		case 10:
+		case 11:
+			System.out.println("秋");
+			break;
+		default:
+			System.out.println("無効な月です");
+		}
+	
+	//1から12のランダムな数字の中で当てはまる季節をコンソールに表示させます。//
 
 	}
 
