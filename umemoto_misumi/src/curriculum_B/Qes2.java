@@ -120,6 +120,8 @@ public class Qes2 {
 		default:
 			System.out.println("無効な入力です");
 		}
+		
+		//1から7のランダムな数字の中で当てはまる曜日をコンソールに表示させます。//
 
 		System.out.println();
 		int month = (int) (Math.random() * 12) + 1;
