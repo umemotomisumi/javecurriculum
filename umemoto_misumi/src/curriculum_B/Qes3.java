@@ -5,7 +5,7 @@ public class Qes3 {
 		for (int i = 1; i <= 10; i++) {
 			System.out.println(i);
 		}
-		
+
 		//for文を使用して1から10までの数字をコンソールに表示させます。//
 
 		System.out.println();
@@ -15,22 +15,24 @@ public class Qes3 {
 			}
 			System.out.println(i);
 		}
-		
+
 		//for文を使用して2から20までの偶数をコンソールに表示させます。//
-		
+
 		System.out.println();
 		for (int i = 10; i >= 1; i--) {
 			System.out.println(i);
 		}
-		
+
 		//for文を使用して10から1までの数字をカウントダウンでコンソールに表示させます。//
-		
+
 		System.out.println();
 		int sum = 0;
-		
+
 		for (int i = 1; i <= 100; i++) {
 			sum = sum + i;
 		}
 		System.out.println(sum);
+
+		//for文を使用して1から100までの数字を合計しコンソールに表示させます。//
 	}
 }
