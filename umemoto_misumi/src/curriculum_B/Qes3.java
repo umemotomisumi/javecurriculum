@@ -24,5 +24,13 @@ public class Qes3 {
 		}
 		
 		//for文を使用して10から1までの数字をカウントダウンでコンソールに表示させます。//
+		
+		System.out.println();
+		int sum = 0;
+		
+		for (int i = 1; i <= 100; i++) {
+			sum = sum + i;
+		}
+		System.out.println(sum);
 	}
 }
