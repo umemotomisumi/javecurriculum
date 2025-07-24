@@ -1,5 +1,6 @@
 package curriculum_B;
 
+import java.util.Random;
 import java.util.Scanner;
 
 public class Qes3 {
@@ -91,6 +92,7 @@ public class Qes3 {
 		while (num != 0) {
 			System.out.println("入力された数値: " + num);
 			num = scanner.nextInt();
+			scanner.close();
 		}
 
 		//Scannerとwhile文を使用して入力が0になるまで何度でも入力を受け付け、0が入力されたら「終了しました」と表示される実装をしています。//
@@ -100,11 +102,24 @@ public class Qes3 {
 		System.out.println();
 		for (int a = 1; a <= 9; a++) {
 			for (int b = 1; b <= 9; b++) {
-				System.out.println(a + "*" + b + "=" + (a * b));
+				System.out.printf("%d×%d=%2d || ", a, b, a * b);
 			}
+
+			System.out.println();
 		}
-		
+
 		//for文を使用して九九の表を表示させます。//
+
+		System.out.println();
+		String iteminput = "パソコン、冷蔵庫、扇風機、洗濯機、加湿器、テレビ、ディスプレイ、その他商品";
+		String[] items = iteminput.split("、");
+
+		Random rand = new Random();
 		
+		int tvstock = rand.nextInt(12);
+		int displaystock = 11 - tvstock;
+		
+		
+
 	}
 }
