@@ -92,8 +92,9 @@ public class Qes3 {
 		while (num != 0) {
 			System.out.println("入力された数値: " + num);
 			num = scanner.nextInt();
-			scanner.close();
 		}
+
+		scanner.close();
 
 		//Scannerとwhile文を使用して入力が0になるまで何度でも入力を受け付け、0が入力されたら「終了しました」と表示される実装をしています。//
 
@@ -115,11 +116,35 @@ public class Qes3 {
 		String[] items = iteminput.split("、");
 
 		Random rand = new Random();
-		
+
 		int tvstock = rand.nextInt(12);
 		int displaystock = 11 - tvstock;
-		
-		
+
+		for (String item : items) {
+			item = item.trim();
+
+			switch (item) {
+			case "パソコン":
+			case "冷蔵庫":
+			case "扇風機":
+			case "洗濯機":
+			case "加湿器":
+				int stock = rand.nextInt(12);
+				System.out.println(item + "の残り台数は" + stock + "台です");
+				break;
+			case "テレビ":
+				System.out.println("テレビの残り台数は" + tvstock + "台です");
+				break;
+			case "ディスプレイ":
+				System.out.println("ディスプレイの残り台数は" + displaystock + "台です");
+				break;
+			case "その他商品":
+				System.out.println("「" + item + "」は指定の商品ではありません");
+			default:
+				System.out.println("「受け取った値」は指定の商品ではありません");
+
+			}
+		}
 
 	}
 }
