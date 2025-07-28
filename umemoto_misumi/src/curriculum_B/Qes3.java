@@ -117,8 +117,8 @@ public class Qes3 {
 
 		Random rand = new Random();
 
-		int tvstock = rand.nextInt(12);
-		int displaystock = 11 - tvstock;
+		int tvstock = rand.nextInt(12); //テレビのストックは変数tvstockで指定します。//
+		int displaystock = 11 - tvstock; //テレビとディスプレイは合わせて11になるように指定します//
 
 		for (String item : items) {
 			item = item.trim();
@@ -145,6 +145,8 @@ public class Qes3 {
 
 			}
 		}
+		
+		//商品の残り台数が出力されるシステムを出力しています。//
 
 	}
 }
