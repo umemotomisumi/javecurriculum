@@ -142,6 +142,7 @@ public class Qes3 {
 				System.out.println("「" + item + "」は指定の商品ではありません");
 			default:
 				System.out.println("「受け取った値」は指定の商品ではありません");
+				break;
 
 			}
 		}
