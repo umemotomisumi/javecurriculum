@@ -138,11 +138,9 @@ public class Qes3 {
 			case "ディスプレイ":
 				System.out.println("ディスプレイの残り台数は" + displaystock + "台です");
 				break;
-			case "その他商品":
+				
+			default :
 				System.out.println("「" + item + "」は指定の商品ではありません");
-			default:
-				System.out.println("「受け取った値」は指定の商品ではありません");
-				break;
 
 			}
 		}
