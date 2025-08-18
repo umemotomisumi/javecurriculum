@@ -159,6 +159,21 @@ public class Qes4 {
 		System.out.println(max1);
 
 		//配列内の 最大値と最小値 を求めて表示させます。//
+		
+		System.out.println();
+		int[][][] array3 = {{{1, 2}, {3, 4}}, {{5, 6}, {7, 8}}};
+		
+		for (int i = 0; i < array3.length; i++) {
+            for (int j = 0; j < array3[i].length; j++) {
+                for (int k = 0; k < array3[i][j].length; k++) {
+                    System.out.print(array3[i][j][k] + " ");
+                }
+                System.out.println();
+            }
+            System.out.println("");
+        }
+		
+		//配列内の全ての値を表示させます。//
 
 	}
 
