@@ -5,6 +5,8 @@ import java.util.Scanner;
 
 public class Qes4 {
 	public static void main(String[] args) {
+
+		//問１：int型の配列numを用意し配列の全要素を順番に表示させます。//
 		int num[] = new int[5];
 
 		num[0] = 1;
@@ -19,7 +21,7 @@ public class Qes4 {
 		System.out.println(num[3]);
 		System.out.println(num[4]);
 
-		//int型の配列numを用意し配列の全要素を順番に表示させます。//
+		//問２：nt 型の配列 {10, 20, 30, 40, 50} を用意し配列の要素を 逆順 に表示させます//
 
 		/*int[] num2 = { 10, 20, 30, 40, 50 };
 		System.out.println(Arrays.toString(num2));
@@ -33,7 +35,7 @@ public class Qes4 {
 		
 		System.out.println(Arrays.toString(num2));*/
 
-		//下記訂正後の回答になります//
+		//問２：下記訂正後の回答になります//
 		System.out.println();
 		int[] num2 = { 10, 20, 30, 40, 50 };
 		System.out.println(Arrays.toString(num2));
@@ -42,8 +44,7 @@ public class Qes4 {
 			System.out.print(num2[i] + " ");
 		}
 
-		//int 型の配列 {10, 20, 30, 40, 50} を用意し配列の要素を 逆順 に表示させます//
-
+		//問３：int 型の配列 {3, 5, 7, 9, 11} を用意し配列の全要素の 合計値 を計算し表示させます。//
 		System.out.println();
 		int[] num3 = { 3, 5, 7, 9, 11 };
 		System.out.println(Arrays.toString(num3));
@@ -55,8 +56,7 @@ public class Qes4 {
 
 		System.out.println(sum);
 
-		//int 型の配列 {3, 5, 7, 9, 11} を用意し配列の全要素の 合計値 を計算し表示させます。//
-
+		//問４：int 型の配列 {12, 7, 9, 21, 5, 18} を用意し配列の 最大値と最小値を表示させます。//
 		System.out.println();
 		int[] num4 = { 12, 7, 9, 21, 5, 18 };
 		System.out.println(Arrays.toString(num4));
@@ -76,8 +76,7 @@ public class Qes4 {
 		System.out.println(max);
 		System.out.println(min);
 
-		//int 型の配列 {12, 7, 9, 21, 5, 18} を用意し配列の 最大値と最小値を表示させます。//
-
+		//問５：int 型の配列 {1,2,3,4,5} を用意し配列の全ての要素を2倍にし結果を表示させます。//
 		System.out.println();
 		int[] num5 = { 1, 2, 3, 4, 5 };
 		System.out.println(Arrays.toString(num5));
@@ -86,8 +85,7 @@ public class Qes4 {
 			System.out.println(n * 2);
 		}
 
-		//int 型の配列 {1,2,3,4,5} を用意し配列の全ての要素を2倍にし結果を表示させます。//
-
+		//問６：入力した数が 配列に含まれているか を判定し、結果を表示します。//
 		System.out.println();
 		int[] num6 = { 4, 7, 10, 15, 20 };
 		Scanner scanner = new Scanner(System.in);
@@ -108,10 +106,7 @@ public class Qes4 {
 			System.out.println(target + "は配列に含まれていません。");
 		}
 
-		scanner.close();
-
-		//入力した数が 配列に含まれているか を判定し、結果を表示します。//
-
+		//問７：配列のすべての要素を表示させます。//
 		System.out.println();
 		int[][] array = { { 1, 2 }, { 3, 4 }, { 5, 6 } };
 
@@ -122,8 +117,7 @@ public class Qes4 {
 
 		System.out.println();
 
-		//配列のすべての要素を表示させます。//
-
+		//問８：の すべての要素の合計値を表示させます。//
 		System.out.println();
 		int[][] array1 = { { 10, 20, 30 }, { 40, 50, 60 }, { 70, 80, 90 } };
 
@@ -136,8 +130,7 @@ public class Qes4 {
 
 		System.out.println(total);
 
-		//配列の すべての要素の合計値を表示させます。//
-
+		//問９：配列内の 最大値と最小値 を求めて表示させます。//
 		System.out.println();
 		int[][] array2 = { { 12, 15, 8 }, { 6, 19, 25 }, { 30, 2, 10 } };
 
@@ -158,22 +151,21 @@ public class Qes4 {
 		System.out.println(min1);
 		System.out.println(max1);
 
-		//配列内の 最大値と最小値 を求めて表示させます。//
-		
+		//問１０：内の全ての値を表示させます。//
 		System.out.println();
-		int[][][] array3 = {{{1, 2}, {3, 4}}, {{5, 6}, {7, 8}}};
-		
+		int[][][] array3 = { { { 1, 2 }, { 3, 4 } }, { { 5, 6 }, { 7, 8 } } };
+
 		for (int i = 0; i < array3.length; i++) {
-            for (int j = 0; j < array3[i].length; j++) {
-                for (int k = 0; k < array3[i][j].length; k++) {
-                    System.out.print(array3[i][j][k] + " ");
-                }
-                System.out.println();
-            }
-            System.out.println("");
-        }
-		
-		//配列内の全ての値を表示させます。//
+			for (int j = 0; j < array3[i].length; j++) {
+				for (int k = 0; k < array3[i][j].length; k++) {
+					System.out.print(array3[i][j][k] + " ");
+				}
+				System.out.println();
+			}
+			System.out.println("");
+		}
+
+		scanner.close();
 
 	}
 
