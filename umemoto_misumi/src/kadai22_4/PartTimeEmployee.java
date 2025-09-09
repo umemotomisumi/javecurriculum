@@ -14,15 +14,3 @@ public class PartTimeEmployee extends Employee {
 	}
 
 }
-
-/*class PartTimeEmployee{
-//時給1000円
-private static final int HOURLY_RATE = 1000;
-//calculateDailyWage(引数「9」)
-public  int calculateDailyWage(int hoursWorked) {
-	//9時間*時給1000円
-	int kyuyo = hoursWorked * HOURLY_RATE;
-	//9000円をmainクラスに返す
-	return kyuyo;
-}
-}*/
