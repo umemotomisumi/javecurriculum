@@ -10,4 +10,8 @@ public abstract class Employee {
 	}
 
 	public abstract int calculateDailyWage(int hoursWorked);
+	
+	public String getName() {
+	    return name;
+	}
 }

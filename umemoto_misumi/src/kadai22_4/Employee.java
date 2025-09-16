@@ -17,8 +17,6 @@ public abstract class Employee {
 	public String getName() {
 		return name;
 	}
-	public abstract int calculateDailyWage(int hoursWorked) {
-		
-	}
+	public abstract int calculateDailyWage(int hoursWorked);
 
 }
