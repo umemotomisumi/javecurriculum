@@ -1,6 +1,6 @@
 package kadai22_6;
 
-//問６：Billableを実装し、ContractEmployee: 1時間1000円にします。//
+//問６：Billableを実装し、ContractEmployee: 1時間1000円にします//
 
 public class ContractEmployee extends Employee {
 	public ContractEmployee(String id, String name) {
