@@ -23,7 +23,3 @@ public class FullTimeEmployee extends Employee {
 	}
 
 }
-/*public class FullTimeEmployee extends Employee {
-@Override
-public int costForDay(int hoursWorked) { ... }
-}*/
