@@ -9,8 +9,8 @@ public class Main{
 	public static void main(String[] args) {
 		List<Billable> employees = new ArrayList<>();
 		
-		employees.add(new FullTimeEmployee());
-		employees.add(new ContractEmployee());
+		employees.add(new FullTimeEmployee("001", "田中"));
+		employees.add(new ContractEmployee("002", "鈴木"));
 		
 		for (Billable b : employees) {
 		    int wage = b.costForDay(10);

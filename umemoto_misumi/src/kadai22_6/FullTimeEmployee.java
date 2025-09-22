@@ -2,7 +2,11 @@ package kadai22_6;
 
 //問６：Billableを実装し、FullTimeEmployeeは1時間1250円、8時間超過は1.25倍にします。//
 
-public class FullTimeEmployee implements Billable {
+public class FullTimeEmployee extends Employee {
+	public FullTimeEmployee(String id, String name) {
+		super(id, name);
+	}
+	
 	@Override
 	public int costForDay(int hoursWorked) {
 		int hourlyRate = 1250;
@@ -19,3 +23,7 @@ public class FullTimeEmployee implements Billable {
 	}
 
 }
+/*public class FullTimeEmployee extends Employee {
+@Override
+public int costForDay(int hoursWorked) { ... }
+}*/
