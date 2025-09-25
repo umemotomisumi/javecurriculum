@@ -13,8 +13,8 @@ public class Main {
 		employees.add(new ContractEmployee("002", "鈴木"));
 
 		for (Billable b : employees) {
-			int wage = b.costForDay(10);
-			System.out.println(wage);
+			int dailyWage = b.costForDay(10);
+			System.out.println(dailyWage);
 		}
 
 	}
