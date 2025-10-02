@@ -1,0 +1,22 @@
+=== バトル開始 ===
+a [HP=96, AT=14, SP=13]
+Daemon [HP=85, AT=12, SP=6]
+
+先攻: a
+
+a の攻撃！ → Daemon のHP: 71
+Daemon の攻撃！ → a のHP: 84
+a の攻撃！ → Daemon のHP: 57
+Daemon の攻撃！ → a のHP: 72
+a の攻撃！ → Daemon のHP: 43
+Daemon の攻撃！ → a のHP: 60
+a の攻撃！ → Daemon のHP: 29
+Daemon の攻撃！ → a のHP: 48
+a の攻撃！ → Daemon のHP: 15
+Daemon の攻撃！ → a のHP: 36
+a の攻撃！ → Daemon のHP: 1
+Daemon の攻撃！ → a のHP: 24
+a の攻撃！ → Daemon のHP: 0
+
+a の勝利！
+=== バトル終了 ===
