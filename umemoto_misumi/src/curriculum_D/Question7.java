@@ -10,7 +10,8 @@ import java.util.Scanner;
 
 public class Question7 {
 
-	// Daemonのステータスをファイルから読み込み
+	// Daemonのステータスをファイルから読み込み//
+	
 	public static Character loadDaemon(String filePath) throws IOException {
 		BufferedReader br = new BufferedReader(new FileReader(filePath));
 		String name = br.readLine();
@@ -35,10 +36,13 @@ public class Question7 {
 			Character player = new Character(playerName, playerHp, playerAt, playerSp);
 
 			// デーモン読み込み
-			Character daemon = loadDaemon("C:\\Users\\sho19\\git\\javecurriculum\\umemoto_misumi\\src\\curriculum_D\\daemon_status,txt");
+			//修正箇所です//
+			Character daemon = loadDaemon("src/curriculum_D/daemon_status.txt");
+			/*Character daemon = loadDaemon("src/curriculum_D/daemon_status.txt");*/
 
 			// ログ出力用
-			BufferedWriter logWriter = new BufferedWriter(new FileWriter("C:\\Users\\sho19\\git\\javecurriculum\\umemoto_misumi\\src\\curriculum_D\\battle_log.txt"));
+			BufferedWriter logWriter = new BufferedWriter(new FileWriter("src/curriculum_D/battle_log.txt"));
+			/*BufferedWriter logWriter = new BufferedWriter(new FileWriter("battle_log.txt"))*/
 			logWriter.write("=== バトル開始 ===\n");
 			logWriter.write(player + "\n");
 			logWriter.write(daemon + "\n\n");

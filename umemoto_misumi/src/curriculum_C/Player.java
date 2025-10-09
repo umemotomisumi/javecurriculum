@@ -8,9 +8,11 @@ import java.util.Scanner;
 public class Player {
 	//handにユーザーが入力した値が入る//
 	private int hand;
+	
+	 //修正箇所です！Scannerをフィールドにおく//
+    private Scanner scanner = new Scanner(System.in);
 
 	public void chooseHand() {
-		Scanner scanner = new Scanner(System.in);
 		System.out.println("グー(0), チョキ(1), パー(2) を入力: 0");//画面に表示//
 		this.hand = scanner.nextInt();//ユーザーの入力を受け取る//
 
